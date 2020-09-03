@@ -25,7 +25,8 @@ body {
   color: #d9dcd6;
 }
 
-.header div {
+/* changed div to nav to match html semantic element */
+.header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -33,13 +34,12 @@ body {
   font-size: 20px;
 }
 
-.header div ul {
-  list-style-type: none;
-}
+/* removed (.header div ul) and added style to (.header nav ul li). Changed div to nav to match html semantic element */
 
-.header div ul li {
+.header nav ul li {
   display: inline-block;
   margin-left: 25px;
+  list-style-type: none;
 }
 
 a {
