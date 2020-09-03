@@ -87,49 +87,22 @@ p {
   background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Consolidated benefit-lead, benefit-brand, and benefit-cost classes into single benefit class */
+.benefit {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
+/* Consolidated benefit-lead h3, benefit-brand h3, and benefit-cost h3 classes into single benefit h3 class */
 
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
+/* Consolidated benefit-lead img, benefit-brand img, and benefit-cost img classes into single benefit class */
 
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-lead img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
