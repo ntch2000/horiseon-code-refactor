@@ -1,10 +1,12 @@
-# horiseon-code-refactor
+# Horiseon Webpage Code Refactor
 
-Horiseon Webpage Code Refactor
+Horiseon is a marketing agency that provides services for clients, including Search Engine Optimization, Online Reputation Management, and Social Media Marketing.
 
-## User Requirements
+Horiseon has asked to review and update the code for their website to follow accessability standards, making the site optimized for search engines.
 
-Horiseon has asked to refactor their website to follow accessability standards, making the site optimized for search engines.
+## Horiseon Webpage
+
+![HoriseonWebpage](./assets/Horiseon-Webpage.jpg)
 
 ## User Acceptance Criteria
 
