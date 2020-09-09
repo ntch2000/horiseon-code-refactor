@@ -43,3 +43,12 @@ The CSS file was modified to consolidate classes and remove duplicate code.
 - Added a footer tag to the footer section of the page to meet accessability requirements
 
 ### Changes to style.css
+
+- Changed the .div classes to .nav class to match the html semantic elements in index.html
+- Consolidated .header nav ul li code to include all styling for the navigation bar in the heading of the page. This removed an extra class that was not needed (.header div ul)
+- Consolidated multiple classes (.benefit-lead, .benefit-brand, and .benefit-cost) into a single class (.benefit), removing duplicate code
+- Consolidated multiple h3 classes (.benefit-lead h3, .benefit-brand h3, and .benefit-cost h3) into a single class (.benefit h3)
+- Consolidated multiple img classes (.benefit-lead img, .benefit-brand img, and .benefit-cost img) into a single class (.benefit img)
+- Consolidated multiple classes (.search-engine-optimization, .online-reputation-management, and .social-media-marketing) into a single class (.services)
+- Consolidated multiple img classes (.search-engine-optimization img, .online-reputation-management img, and .social-media-marketing img) into a single class (.services img)
+- Consolidated multiple h2 classes (.search-engine-optimization h2, .online-reputation-management h2, and .social-media-marketing h2) into a single class (.services h2)
