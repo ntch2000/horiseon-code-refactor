@@ -1,12 +1,20 @@
 # Horiseon Webpage Code Refactor
 
+## Description
+
 Horiseon is a marketing agency that provides services for clients, including Search Engine Optimization, Online Reputation Management, and Social Media Marketing.
 
 Horiseon has asked to review and update the code for their website to follow accessability standards, making the site optimized for search engines.
 
-## Horiseon Webpage
+## Table of Contents
 
-![HoriseonWebpage](./assets/Horiseon-Webpage.jpg)
+- [User Acceptance Criteria](#User-Acceptance-Criteria)
+- [Installation](#installation)
+- [Horiseon Webpage Screenshot](#Horiseon-Webpage-Screenshot)
+- [Summary of Changes](#summary-of-changes)
+  - [Changes to index.html](#changes-to-index.html)
+  - [Changes to style.css](#changes-to-style.css)
+- [Credits](#credits)
 
 ## User Acceptance Criteria
 
@@ -23,6 +31,16 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
+
+## Installation
+
+In order to view this application, please visit [https://ntch2000.github.io/horiseon-code-refactor/](https://ntch2000.github.io/horiseon-code-refactor/).
+
+To see the code base for this page, visit my github page [https://github.com/ntch2000/horiseon-code-refactor](https://github.com/ntch2000/horiseon-code-refactor). The code can be viewed directly in the github repository or downloaded and viewed in any text editor.
+
+## Horiseon Webpage Screenshot
+
+![HoriseonWebpage](./assets/Horiseon-Webpage.jpg "Horiseon Main Page")
 
 ## Summary of changes
 
@@ -54,3 +72,11 @@ The CSS file was modified to consolidate classes and remove duplicate code.
 - Consolidated multiple classes (.search-engine-optimization, .online-reputation-management, and .social-media-marketing) into a single class (.services)
 - Consolidated multiple img classes (.search-engine-optimization img, .online-reputation-management img, and .social-media-marketing img) into a single class (.services img)
 - Consolidated multiple h2 classes (.search-engine-optimization h2, .online-reputation-management h2, and .social-media-marketing h2) into a single class (.services h2)
+
+## Credits
+
+Reference material on semantic elements from [w3schools](https://www.w3schools.com/html/html5_semantic_elements.asp) was utilized in this project.
+
+---
+
+© 2020 Neil Gandhi
